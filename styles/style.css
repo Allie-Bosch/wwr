@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Skranji&display=swap');
 
-
+/* Start of Home CSS */
 body{
     background-color: white;
     font-family: "Open-Sans", sans-serif;
@@ -138,7 +138,6 @@ main section{
 }
 
 .mountains{
-    /* width: 100%; */
     grid-column: 2/7;
     grid-row: 5/8;
     box-shadow: 5px 5px 10px black;
@@ -210,7 +209,60 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+/* End of Home CSS */
 
+/* Start of Rivers CSS */
+#subheader{
+    font-family: "Skranji", sans-serif;
+    font-size: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    gap: 50px;
+}
+
+.rivers-img {
+    width: 100%;
+}
+
+.river1 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.text1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 15px;
+}
+
+.river2 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.text2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    font-size: 15px;
+}
+
+.river3 {
+    grid-column:2/3;
+    grid-row: 3/4
+}
+
+.text3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    font-size: 15px;
+}
+
+/* End of Rivers CSS */
 
 
 @media screen and (max-width: 900px) {
