@@ -16,7 +16,7 @@ h2{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    grid-template-rows: 150ox;
+    grid-template-rows: 150pxx;
     background-color: #81a4cd ;
 }
 
@@ -221,7 +221,7 @@ footer p a:hover{
 
 .rivers-grid{
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 50px;
 }
 
