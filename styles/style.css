@@ -16,7 +16,7 @@ h2{
 header{
     display: grid;
     grid-template-columns: 150px auto;
-    grid-template-rows: 150pxx;
+    grid-template-rows: 150px;
     background-color: #81a4cd ;
 }
 
